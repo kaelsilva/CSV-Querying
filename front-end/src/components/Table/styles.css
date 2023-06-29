@@ -1,0 +1,20 @@
+.table-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  @media only screen and (max-width: 700px) {
+    justify-content: unset;
+  }
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.card td {
+  padding: 8px;
+}
