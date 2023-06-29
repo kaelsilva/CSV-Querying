@@ -9,4 +9,8 @@ module.exports = {
     dialect: "sqlite",
     storage: process.env.DB_STORAGE_PATH,
   },
+  test: {
+    dialect: "sqlite",
+    storage: './database.sqlite',
+  }
 };
